@@ -62,6 +62,42 @@ EOF
 
 ---
 
+## Basic Linux Commands
+
+### Navigation
+
+* `pwd` → show current directory
+* `ls` → list files
+* `ls -l` → detailed list
+* `ls -a` → include hidden files
+* `cd folder` → change directory
+* `cd ..` → go up one level
+* `cd ~` → go to home directory
+
+### File & Directory Operations
+
+* `touch file.txt` → create empty file
+* `mkdir folder` → create directory
+* `cp src dest` → copy file
+* `cp -r dir1 dir2` → copy directory
+* `mv old new` → move or rename
+* `rm file` → delete file
+* `rm -r folder` → delete folder (recursive)
+
+### Viewing Files
+
+* `cat file.txt` → view file contents
+* `less file.txt` → scrollable view
+* `head file.txt` → first 10 lines
+* `tail file.txt` → last 10 lines
+
+### Searching
+
+* `grep "text" file.txt` → search text in file
+* `find . -name "*.txt"` → find files
+
+---
+
 ## Common Commands Reminder
 
 * `cat file.txt` → read file contents
@@ -78,6 +114,4 @@ EOF
 * Be careful with `>` — it overwrites files
 
 ---
-
-(You can keep extending this document as you learn more Linux and Bash concepts.)
 
